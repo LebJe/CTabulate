@@ -29,4 +29,6 @@ void cxxDraw() {
 	table.format().width(20);
 	table[0].format().font_style({FontStyle::bold});
 	table.print(std::cout);
+	table = Table();
+	
 }
